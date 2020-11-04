@@ -1,0 +1,310 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+/* Beginning OF HEADER STYLING */
+
+header {
+    border: 1px solid #DDD;
+    background: #FAF0EF;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header h1 {
+    float: left;
+    margin-left: 2%;
+    color: #BAB4B4;
+    text-align: center;
+    font-size: 250%;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    -webkit-text-shadow: 1px 1px 1px #84879B;
+    -o-text-shadow: 1px 1px 1px #84879B;
+    text-shadow: 1px 1px 1px #84879B;
+}
+
+header nav {
+    -ms-display: flex;
+    -moz-display: flex;
+    -webkit-display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    -ms-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    width: 88vmax; 
+
+   
+}
+
+header nav ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.websiteSections /*The list inside the navigation bar, e.g home...etc*/ {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+.websiteSections a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #84879B;
+    text-align: center;
+    padding-right: 1.6rem;
+
+}
+
+.websiteSections a:hover {
+   color: #FCF7F8;
+}
+
+.websiteSections a:active {
+   color: #FCF7F8;
+}
+
+/* END OF HEADER STYLING */
+
+/* Beginning OF MAIN STYLING */
+
+#IntroSection {
+    display: flex;
+    -ms-display: flex;
+    -moz-display: flex;
+    -webkit-display: flex;
+    justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3vmax;
+    margin-left: -10%;
+}
+
+#IntroSection div {
+    background-color: #FFF;
+    height: 30h;
+    margin-right:10rem;
+    margin-left:10rem;
+    margin-top: 5rem;
+}
+
+#IntroSection div hr {
+    width: 10vmax;
+    height:1vh;
+    background-color: #EFD7D8;
+    color: #EFD7D8;
+    border: 1px solid #EFD7D8;
+    margin-top: -8%;
+}
+
+#IntroSection div h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #BAB4B4;
+  
+}
+
+#IntroSection div p {
+    font-size: 2.7rem;
+    text-align: center;
+    color: #BAB4B4;
+}
+
+#IntroSection img {
+    border: 0px;
+    margin-top:7rem;
+    margin-left:-5%;
+    height: 53vh;
+}
+
+#InfoForYoga {
+    margin-top: 2%;
+    background-color: #FAF0EF;
+    
+}
+
+#InfoForYoga h3 {
+    margin-left: 2rem;
+    padding-top: 2rem;
+    font-size: xx-large;
+    color: #84879B;
+    text-transform: capitalize;
+}
+
+#InfoForYoga p {
+    margin-left: 2rem;
+    font-size: large;
+    line-height: 2;
+    word-spacing: word-break;
+    word-break: break-word;
+    white-space: normal;
+    font-family: cursive;
+    text-indent: 4%;
+    color: #9E9999;
+    margin-top: -20px;
+}
+
+#History h3 {
+    margin-left: 2rem;
+    padding-top: 2rem;
+    font-size: xx-large;
+    color: #84879B;
+    text-transform: capitalize;
+}
+
+#HistoryImages {
+    width: 70%;
+    margin-left:19%;
+    height: 200px;
+    display: flex;
+    -ms-display: flex;
+    -moz-display: flex;
+    -webkit-display: flex;
+    align-items: stretch;
+
+
+}
+
+#HistoryImages img {
+    flex-grow: 3;
+}
+
+#par {
+    display: flex;
+    -ms-display: flex;
+    -moz-display: flex;
+    -webkit-display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#HistoryDiv p {
+    margin-left: 5rem;
+    font-size: large;
+    line-height: 2;
+    word-break: break-word;
+    white-space: normal;
+    font-family: cursive;
+    margin-top: 1%;
+    color: #9E9999;
+}
+
+#Types {
+    margin-top: 2%;
+    background-color: #FAF0EF;
+}
+
+#Types h3 {
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-size: xx-large;
+    color: #84879B;
+    text-transform: capitalize;   
+}
+
+#TypesIntro {
+    margin-left: 3rem;
+    font-size: large;
+    line-height: 2;
+    word-spacing: word-break;
+    word-break: break-word;
+    white-space: normal;
+    font-family: cursive;
+    text-indent: 4%;
+    color: #9E9999;
+    margin-top: -10px;  
+}
+
+#Types section {
+    margin-left: 3rem;
+    font-size: large;
+    line-height: 2;
+    word-spacing: word-break;
+    word-break: break-word;
+    white-space: normal;
+    font-family: cursive;
+    color: #9E9999;
+    margin-top: -10px; 
+}
+
+.yogaName {
+    color: #adb0cc;
+}
+
+#feedbackDiv {
+    margin-top: 2%;
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+
+#feedbackDiv h3 {
+    font-size: xx-large;
+    color: #84879B;
+    text-transform: uppercase;
+}
+
+#feedbackDiv p {
+    font-size: large;
+    line-height: 2;
+    word-spacing: word-break;
+    word-break: break-word;
+    white-space: normal;
+    font-family: cursive;
+    text-indent: 4%;
+    color: #9E9999;
+    
+}
+
+#emailURl {
+    color: #9E9999;
+}
+
+#emailURl:hover {
+    color: #00f;
+}
+
+#feedbackDiv a img {
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    cursor: zoom-in;
+}
+
+
+/* END OF MAIN STYLING */
+
+
+/* Beginning OF FOOTER STYLING */
+#FootersDiv{
+    width: 100.2%;
+    padding: 1%;
+
+}
+
+footer { 
+
+    height: 30%;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    font-family: cursive;
+    color: #9E9999;
+}
+
+/* END OF FOOTER STYLING */
