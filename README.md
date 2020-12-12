@@ -2,10 +2,6 @@
 
 The idea of this website is to introduce the meaning and more details of the YOGA exercise. In future work, we will add more features as showing some real and live videos to enhance the purpose of yoga and encourage clients to follow and start to do some of these exercises. Contact with Instructors and see the nearest place that offers yoga sessions for our clients.
 
-# Technologies and languages:
- 
- HTML, CSS
-
 
 # Note:
 
